@@ -17,6 +17,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
-      - run: npm install
+      - run: |
+          echo 'console.log(secrets.TEST)'
+          echo 'console.log(process.env.TEST)' > test.js
+          TEST=abcd1234 node test.js
         env:
           TEST: ${{ secrets.TEST }}
