@@ -2,7 +2,7 @@
   "name": "try-renovate-example",
   "version": "1.0.0",
   "dependencies": {
-    "lodash": "^4.17.20",
+    "lodash": "4.17.21",
     "mocha": "9.1.1",
     "eslint": "7.32.0",
     "chai": "4.3.4"
