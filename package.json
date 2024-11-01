@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "lodash": "4.17.21",
-    "mocha": "10.7.3",
+    "mocha": "10.8.1",
     "eslint": "9.13.0",
     "chai": "5.1.2"
   }
