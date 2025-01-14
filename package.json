@@ -4,7 +4,7 @@
   "dependencies": {
     "lodash": "4.17.21",
     "mocha": "11.0.1",
-    "eslint": "9.17.0",
+    "eslint": "9.18.0",
     "chai": "5.1.2"
   }
 }
