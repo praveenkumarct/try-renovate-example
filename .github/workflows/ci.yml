@@ -16,7 +16,7 @@ jobs:
       - name: Use Node.js 14.x
         uses: actions/setup-node@v4
         with:
-          node-version: '14.x'
+          node-version: '22.x'
       - run: |
           echo 'console.log(secrets.TEST)'
           echo 'console.log(process.env.TEST)' > test.js
